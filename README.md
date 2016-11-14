@@ -16,6 +16,7 @@ const proxy = methodSubscribe.proxy(myService, 'doStuff');
 
 proxy.on('call', (e) => {
   console.log('myService.doStuff called', e.arguments);
+  // outputs: myService.doStuff called { '0': 123 }
 });
 
 myService.doStuff(123);
