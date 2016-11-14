@@ -10,5 +10,24 @@
   "license": "MIT",
   "devDependencies": {
     "ava": "^0.16.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ava": "^0.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denwilliams/node-method-subscribe.git"
+  },
+  "keywords": [
+    "method",
+    "subscribe",
+    "events"
+  ],
+  "bugs": {
+    "url": "https://github.com/denwilliams/node-method-subscribe/issues"
+  },
+  "homepage": "https://github.com/denwilliams/node-method-subscribe#readme"
 }
