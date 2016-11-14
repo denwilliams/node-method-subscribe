@@ -1,0 +1,14 @@
+{
+  "name": "method-subscribe",
+  "version": "1.0.0",
+  "description": "Allows subscribing to any method or function calls using event listeners",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Den Williams",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}
