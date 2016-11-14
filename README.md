@@ -21,5 +21,5 @@ proxy.on('call', (e) => {
 myService.doStuff(123);
 ```
 
-- An `call` event is first emitted with the called arguments
+- A `call` event is first emitted with the called arguments
 - The original `doStuff` method is then called
